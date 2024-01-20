@@ -1,4 +1,4 @@
-# Trello - React.
+# Dropbox-React.
 
 A Dropbox-like app that simulates Dropbox UI and functionality. Users can securely login using their Google account or sing up using their email (powered by [Clerk](https://clerk.com/)) and then upload, download, rename and delete their files simulating the real Dropbox functionality. Files are hosted in Firebase storage, and the details and association with the users are registered in the Firestore Database.
 
