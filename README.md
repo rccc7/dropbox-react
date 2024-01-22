@@ -21,7 +21,6 @@ See it: https://dropbox-react.vercel.app/
 - User management. Users can Sign in securely using their Google account or email. Powered by [Clerk](https://clerk.com/). Each user can access only their own files.
 - State management powered by [Zustand](https://www.npmjs.com/package/zustand).
 - Dark mode functionality as well as beautiful reusable components such as button, dialog, dropdown mnenu, table and input powered by [shacdn/ui](https://ui.shadcn.com/)
-- Search functionality. Search for a task and filter the todos lists in realtime as you type in the search box.
 
 ## Technologies & Libraries:
 
