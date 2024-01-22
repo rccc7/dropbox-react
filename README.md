@@ -10,6 +10,10 @@ See it: https://dropbox-react.vercel.app/
   <img src="screenshots/Dropbox-React.jpg" alt="screenshot" width="700" style="width:700px;"/>
 </div>
 
+## Instructions.
+
+1. Just Sign in/ Sing up with your Google account or email and start uploading, downloading, and renaming your files.
+
 ## Features.
 
 - Drag and Drop functionality. The user can upload their files either by opening a File dialog or by dragging files to the app's drop zone. Powered by [react-dropzone](https://react-dropzone.js.org/), a simple react hook to create an HTML 5 compilant drag'n drop zone for files.
@@ -19,17 +23,21 @@ See it: https://dropbox-react.vercel.app/
 - Dark mode functionality as well as beautiful reusable components such as button, dialog, dropdown mnenu, table and input powered by [shacdn/ui](https://ui.shadcn.com/)
 - Search functionality. Search for a task and filter the todos lists in realtime as you type in the search box.
 
-## Technologies:
+## Technologies & Libraries:
 
 The following technologies, dependencies, and services were used to make this app:
 
 - ReactJS.
 - NextJS 14.
 - TailwindCSS.
-- Shacdn/ui: Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
+- [shacdn/ui](https://ui.shadcn.com/): Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
 - [AppWrite Cloud](https://cloud.appwrite.io/). A secure open-source backend platform which provides a set of secure APIS, tools and a management console UI to help build apps quickly. Features used: database and file storage.
 - [React-Beautiful-DND](https://github.com/atlassian/react-beautiful-dnd). A beautiful and accessible drag and drop library for lists with React.
 - [Zustand](https://www.npmjs.com/package/zustand). A small, fast and sacalable bearbones state-management solution using simplified flux principles.
+- [react-dropzone](https://react-dropzone.js.org/), a simple react hook to create an HTML 5 compilant drag'n drop zone for files.
+- [Fireabase](https://firebase.google.com/), one of the best app development platforms backed up by Google to store files through Firebase Storage and data through Firestore Database.
+- [React File Icon](https://www.npmjs.com/package/react-file-icon), a package to display the file icons according to their file types.
+- [react-hot-toast](https://react-hot-toast.com/), a library which provides beautiful and easy to use notifications to your React app.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
